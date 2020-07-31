@@ -9,4 +9,8 @@
 
 @implementation TestPod
 
+- (void)print {
+    NSLog(@"TestPod");
+}
+
 @end

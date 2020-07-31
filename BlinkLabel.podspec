@@ -30,7 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BlinkLabel/Classes/**/*'
+  s.source_files = 'BlinkLabel/Classes/**'
+#  s.source_files = 'Classes/*.{h.m}'
   
   # s.resource_bundles = {
   #   'BlinkLabel' => ['BlinkLabel/Assets/*.png']
