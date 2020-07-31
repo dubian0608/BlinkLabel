@@ -7,6 +7,7 @@
 //
 
 #import "TESTViewController.h"
+#import "BlinkLabel/TestPod.h"
 
 @interface TESTViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    TestPod* test = [[TestPod alloc] init];
+    [test print];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

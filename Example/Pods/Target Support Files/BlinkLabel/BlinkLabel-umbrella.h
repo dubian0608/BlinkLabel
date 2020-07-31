@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestPod.h"
 
 FOUNDATION_EXPORT double BlinkLabelVersionNumber;
 FOUNDATION_EXPORT const unsigned char BlinkLabelVersionString[];
